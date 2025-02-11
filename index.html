@@ -1,1 +1,61 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Roger - L'or pure</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f8f8; }
+        header { background-color: #d4af37; padding: 15px; text-align: center; color: white; font-size: 24px; }
+        nav { text-align: center; padding: 10px; }
+        nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
+        .container { max-width: 900px; margin: auto; padding: 20px; background: white; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        footer { background: #222; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        .hero { text-align: center; padding: 50px; background: url('gold-bars.jpg') no-repeat center center/cover; color: white; font-size: 28px; font-weight: bold; }
+        .image-gallery { display: flex; justify-content: space-around; margin-top: 20px; }
+        .image-gallery img { width: 30%; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<body>
+    <header>Gold Roger - L'or pure</header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Nos Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">Bienvenue chez Gold Roger</div>
+    <div class="container">
+        <section id="accueil">
+            <h2>Bienvenue chez Gold Roger</h2>
+            <div class="image-gallery">
+                <img src="gold-coins.jpg" alt="Pièces d'or">
+                <img src="gold-bars.jpg" alt="Lingots d'or">
+                <img src="gold-jewelry.jpg" alt="Bijoux en or">
+            </div>
+            <p>Spécialistes en change de devises et en achat/vente d'or. Fiabilité, rapidité et sécurité garanties.</p>
+        </section>
+        <section id="services">
+            <h2>Nos Services</h2>
+            <ul>
+                <li>Échange de devises aux meilleurs taux</li>
+                <li>Achat et revente d'or certifié</li>
+                <li>Conseils et expertise en investissement</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <p>Email : contact@goldroger.com</p>
+            <p>Téléphone : +XX XXX XXX XXX</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 Gold Roger. Tous droits réservés.
+    </footer>
+</body>
+</html>
